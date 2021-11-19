@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1">
+        <title>Journy with me</title>
+
+        <Style>
+            .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: visable;
+    z-index: -10000;
+}
+
+.fullscreen-bg__video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+</style>
+
+        <style>
+            ul#menu li {
+              display:inline;
+            }
+            </style>
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+                
+                <source src="movie-events.mp4" type="video/mp4">
+                
+            </video>
+        </div>
+        
+    </head>
+
+    <body>
+        <!--<body bgcolor="#0b6043"></body>-->
+        
+        <iframe
+         src="https://calendar.google.com/calendar/embed?height=950&wkst=1&bgcolor=%230B8043&ctz=America%2FEdmonton&src=andtaGVhbGluZ0BnbWFpbC5jb20&color=%23039BE5&showTabs=1&showTitle=0" 
+        style="border:solid 1px #777" width="800" height="950" frameborder="0" scrolling="no">
+    </iframe>
+    </body>
